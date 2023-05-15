@@ -26,7 +26,7 @@
         <nav class="navbar">
             <img src="assets/img/bake-logo.png" class="logo">
             <ul class="nav_links">
-                <li><a href="main.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li>
                     <a class="recipes" href="Recipes.php">Recipes</a>
                     
