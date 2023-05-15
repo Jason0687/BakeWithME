@@ -31,40 +31,11 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 </head>
-<header>
-    <div class="banner-holder">
-        <nav class="navbar"
-        data-aos="fade-up"
-        data-aos-anchor-placement="top-center"
-        data-aos-doration="3000"
-        >
-            <img src="assets/img/bake-logo.png" class="logo">
-            <ul class="nav_links">
-                <li><a href="main.php">Home</a></li>
-                <li>
-                    <a href="Recipes.php">Recipes</a>
-                    <div class="dropdown_menu">
-                        <ul>
-                            <li><a href="ChocolateCookies.php">Cookies</a></li>
-                            <li><a href="Blueberry Cheesecake.php">Cheesecake</a></li>
-                            <li><a href="Cinnabon.php">Cinnabon</a></li>
-                            <li><a href="Brownies.php">Brownies</a></li>
-                            <li><a href="Doughnuts.php">Doughnuts</a></li>
-                        </ul>
-                    </div>    
-                </li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="contacts.php">Contacts</a></li>
-                <li class="lon-col"><a  href="login.php">Log In</a></li>
+    
 
-            </ul>
-            <div class="toggle_btn">
-                <i class="fa-sharp fa-solid fa-bars"></i>
-            </div>
-        </div>
-        </nav>
-</header>
 <body>
+<?php include 'header.php'; ?>
+
     <div class="container">
 	
         <div class="left">
