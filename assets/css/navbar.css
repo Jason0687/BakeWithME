@@ -1,0 +1,155 @@
+
+.navbar {
+    background-image: linear-gradient(#da56b7, #da56b7);
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+	
+}
+
+.logo {
+    width: 200px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nav_links {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav_links li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+
+}
+
+.nav_links li a {
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    margin: 0 0 0 2px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 1s;
+}
+.nav_links li a:hover {
+    color: #333;
+}
+
+.dropdown_menu {
+    display: none;
+    background-color: #da56b7;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+
+.nav_links li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 35px;
+    margin: -10px;
+    z-index: 999;
+    color:#dfdfdf;
+    width: 9em;
+}
+
+.nav_links li:hover .dropdown_menu ul {
+    display: block;
+    position: relative;
+    
+}
+
+.nav_links li:hover .dropdown_menu ul li {
+    width: 100%;
+    padding: 5px;
+    
+}
+
+.navbar .toggle_btn {
+    position: absolute;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    right: 30px;
+    width: 40px;
+    display: none;
+}
+
+/*Mobile devices*/
+
+@media (max-width:850px){
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        left: 30px;
+        
+    }
+    .nav_links {
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin-top: 31.25rem;
+        background-color: #ad1b6e;
+        transition: all 0.21s ease;
+    }
+
+    .nav_links.active {
+        display: flex;
+    }
+
+    .nav_links li {
+        margin: 30px auto;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+
+}
+
+.login-col{
+    background-color: #97387a;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.login-col:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+.login-col:active {
+    scale: 0.95;
+}
