@@ -20,35 +20,8 @@
     </style>
 </head>
 <body>
-    <header>
-        <div class="banner">
-            <nav class="navbar ">
-                <img src="assets/img/bake-logo.png" class="logo">
-                <ul class="nav_links">
-                    <li><a href="main.php">Home</a></li>
-                    <li>
-                        <a class="recipes" href="#">Recipes</a>
-                        
-                        <div class="dropdown_menu">
-                            <ul>
-                                <li><a href="ChocolateCookies.php">Cookies</a></li>
-                                <li><a href="Blueberry Cheesecake.php">Cheesecake</a></li>
-                                <li><a href="Cinnabon.php">Cinnabon</a></li>
-                                <li><a href="Brownies.php">Brownies</a></li>
-                                <li><a href="Doughnuts.php">Doughnuts</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contacts.php">Contacts</a></li>
-                    <li class="login-col"><a  href="login.php">Log In</a></li>
-                </ul>
-                <div class="toggle_btn">
-                    <i class="fa-sharp fa-solid fa-bars"></i>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php include 'header.php'; ?>
+    
         <div class="rcontainer">
             <div class="rtitle">
                 <h1>Our Menu Recipes</h1>
