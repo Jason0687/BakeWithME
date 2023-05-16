@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <style>
-        <?php include 'assets/css/style.css';?>
-        <?php include 'assets/css/nextpage.css';?>
-        <?php include 'assets/css/navbar.css';?>
-        <?php include 'assets/css/mediaQueries.css';?>
-        <?php include 'assets/css/recipes.css';?>
-        <?php include 'assets/css/about.css';?>
-        <?php include 'assets/css/footer.css';?>
-        <?php include 'assets/css/login.css';?>
-        <?php include 'assets/css/contacts.css';?>
-    </style>
-    
     <title>Bake With Me</title>
     
     <link rel="icon" href="assets/img/logo.png.png" type="icon">

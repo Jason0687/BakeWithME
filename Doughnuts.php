@@ -2,17 +2,6 @@
 <php lang="en">
 <head>
     <title>Bake With Me</title>
-    <style>
-        <?php include 'assets/css/style.css';?>
-        <?php include 'assets/css/nextpage.css';?>
-        <?php include 'assets/css/navbar.css';?>
-        <?php include 'assets/css/mediaQueries.css';?>
-        <?php include 'assets/css/recipes.css';?>
-        <?php include 'assets/css/about.css';?>
-        <?php include 'assets/css/footer.css';?>
-        <?php include 'assets/css/login.css';?>
-        <?php include 'assets/css/contacts.css';?>
-    </style>
     
     <link rel="icon" href="assets/img/logo.png.png" type="icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,16 +28,16 @@
     <div class="container">
 	
         <div class="left">
-            <div class="img-holder" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-doration="500">      
+            <div class="img-holder">      
                 <img src="assets/RecipesList/Doughnuts.jpg" alt="Doughnuts">
             </div>
 
         </div>
         
-        <div class="right" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <div class="right">
         <table>
             <tbody>
-                <div class="header" data-aos="fade-left">
+                <div class="header">
                     <h1>Doughnuts Recipe</h1>
                 </div>
                 <tr> 
@@ -128,8 +117,8 @@
                 
         </div>
         <div class="buttom">
-            <h2 class="steps-col" data-aos="fade-left"  >Steps</h2>
-                    <ol data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2 class="steps-col">Steps</h2>
+                    <ol>
                         <li>Preheat the oven to 425°F. Lightly grease two standard doughnut pans.</li>
                         <li>In a medium-sized mixing bowl, beat together the butter, vegetable oil, and sugars until smooth.</li>
                         <li>Add the eggs, beating to combine.</li>

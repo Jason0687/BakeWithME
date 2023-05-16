@@ -2,17 +2,6 @@
 <php lang="en">
 <head>
     <title>Bake With Me</title>
-    <style>
-        <?php include 'assets/css/style.css';?>
-        <?php include 'assets/css/nextpage.css';?>
-        <?php include 'assets/css/navbar.css';?>
-        <?php include 'assets/css/mediaQueries.css';?>
-        <?php include 'assets/css/recipes.css';?>
-        <?php include 'assets/css/about.css';?>
-        <?php include 'assets/css/footer.css';?>
-        <?php include 'assets/css/login.css';?>
-        <?php include 'assets/css/contacts.css';?>
-    </style>
     
     <link rel="icon" href="assets/img/logo.png.png" type="icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,16 +26,16 @@
     <div class="container">
 	
         <div class="left">
-            <div class="img-holder" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-doration="500">
+            <div class="img-holder">
                 <img src="assets/RecipesList/Chocolate_cookies.webp" alt="Chocolate cookies">
             </div>
 
         </div>
         
-        <div class="right" data-aos="fade-up" data-aos-anchor-placement="top-center">
+        <div class="right">
         <table>
             <tbody>
-                <div class="header" data-aos="fade-left">
+                <div class="header">
                     <h1>Chocolate Cookies Recipe</h1>
                 </div>
                 <tr> 
@@ -99,8 +88,8 @@
         </table>         
         </div> 
         <div class="buttom">
-            <h2 class="steps-col" data-aos="fade-left">Steps</h2>
-                <ol data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2 class="steps-col">Steps</h2>
+                <ol>
                     <li>Heat oven to 375°F. In small bowl, mix flour, baking soda and salt; set aside.</li>
                     <li>In large bowl, beat softened butter and sugars with electric mixer on medium speed, or mix with spoon about 1 minute or until fluffy, scraping side of bowl occasionally.</li>
                     <li>Beat in egg and vanilla until smooth. Stir in flour mixture just until blended (dough will be stiff). Stir in chocolate chips and nuts.</li>

@@ -2,17 +2,6 @@
 <php lang="en">
 <head>
     <title>Bake With Me</title>
-    <style>
-        <?php include 'assets/css/style.css';?>
-        <?php include 'assets/css/nextpage.css';?>
-        <?php include 'assets/css/navbar.css';?>
-        <?php include 'assets/css/mediaQueries.css';?>
-        <?php include 'assets/css/recipes.css';?>
-        <?php include 'assets/css/about.css';?>
-        <?php include 'assets/css/footer.css';?>
-        <?php include 'assets/css/login.css';?>
-        <?php include 'assets/css/contacts.css';?>
-    </style>
     
     <link rel="icon" href="assets/img/logo.png.png" type="icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,7 +34,7 @@
         <div class="right">
         <table>
             <tbody>
-                <div class="header" data-aos="fade-left">
+                <div class="header">
                     <h1>Blueberry Cheesecake Recipe</h1>
                 </div>
                 <tr> 
@@ -82,8 +71,8 @@
         </table>
         </div> 
         <div class="buttom">
-            <h2  data-aos="fade-left">Steps</h2>
-                <ol data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2>Steps</h2>
+                <ol>
                     <li>Combine graham crackers and butter. Mix well. Set aside.</li>
                     <li>Beat NESTLÉ Cream, cream cheese and NESTLÉ® Carnation® Condensada until smooth and fully incorporated.</li>
                     <li>In a container, layer graham crackers, cream mixture and blueberries alternately</li>

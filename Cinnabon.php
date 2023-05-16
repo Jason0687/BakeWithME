@@ -2,17 +2,6 @@
 <php lang="en">
 <head>
     <title>Bake With Me</title>
-    <style>
-        <?php include 'assets/css/style.css';?>
-        <?php include 'assets/css/nextpage.css';?>
-        <?php include 'assets/css/navbar.css';?>
-        <?php include 'assets/css/mediaQueries.css';?>
-        <?php include 'assets/css/recipes.css';?>
-        <?php include 'assets/css/about.css';?>
-        <?php include 'assets/css/footer.css';?>
-        <?php include 'assets/css/login.css';?>
-        <?php include 'assets/css/contacts.css';?>
-    </style>
     
     <link rel="icon" href="assets/img/logo.png.png" type="icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,16 +27,16 @@
         
             <div class="left">
                 
-                <div class="img-holder" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-doration="500">
+                <div class="img-holder">
                     <img src="assets/RecipesList/Cinnabon.webp" alt="Cinnabon">
                 </div>
 
             </div>
             
-            <div class="right" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <div class="right">
             <table>
                 <tbody>
-                    <div class="header" data-aos="fade-left">
+                    <div class="header">
                         <h1>Cinnabon Recipe</h1>
                     </div>
                     <tr> 
@@ -124,8 +113,8 @@
             
         </div>
         <div class="buttom">
-            <h2 class="steps-col" data-aos="fade-left">Steps</h2>
-            <ol data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <h2 class="steps-col">Steps</h2>
+            <ol>
                 <li>Prepare dough: Place milk, eggs, margarine, flour, salt, white sugar, and yeast in the pan of a bread machine in the order recommended by the manufacturer. Select dough cycle; press Start.</li>
                 <li>When dough has doubled in size, turn it out onto a lightly floured surface. Cover it with a kitchen towel or plastic wrap and let it rest for 10 minutes.</li>
                 <li>Roll dough on a lightly floured surface to a 16x21-inch rectangle</li>
