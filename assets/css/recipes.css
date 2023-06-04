@@ -38,6 +38,10 @@
     text-align: center;
 }
 
+.rtitle h1 {
+    color: var(--clr-white);
+}
+
 .submeunu {
     width: 90%;
     height: 100%;

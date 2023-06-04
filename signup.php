@@ -11,14 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <style>
-        <?php include 'assets/css/login.css';?>
-    </style>
+
 
     
 </head>
 <body>
-
+<?php include 'header.php';?>
     <div class="fix-m-header">
         <img src="./assets/cell-phone.png" alt="Android">
         <span>Get Bake With ME for Android and browse faster</span>
@@ -37,21 +35,30 @@
            <!-- login form -->
            <div class="right-content">
                <div class="card">
-                   <form action="main.php">
-                       <div class="inputcontainer">
-                           <input id="email" type="text" placeholder="Email address or phone number">
+                   <form action="login.php" method="POST">
+                        <div class="inputcontainer">
+                           <input id="name" name = "name" type="text" placeholder="Name">
                            <div class="error"></div>
                        </div>
                        <div class="inputcontainer">
-                            <input id="password" type="password" placeholder="Password">
+                           <input id="lastname" name="lastname" type="text" placeholder="Last Name">
+                           <div class="error"></div>
+                       </div>
+                       <div class="inputcontainer">
+                           <input id="email" name="email" type="text" placeholder="Email address or phone number">
+                           <div class="error"></div>
+                       </div>
+                       <div class="inputcontainer">
+                            <input id="password" name="password" type="password" placeholder="Password">
                             <div class="error"></div>
                         </div>
                         <div class="inputcontainer">
-                            <input id="password2" type="password" placeholder="Confirm Password">
+                            <input id="password2" name="password2" type="password" placeholder="Confirm Password">
                             <div class="error"></div>
                         </div>
                         <div class="login-btn-container">
-                            <button type="submit" class="login-btn">Sign Up</button>
+                            <button type="submit" class="login-btn" >Sign Up</button>
+                            
                         </div>
                    </form>
 
@@ -112,3 +119,4 @@
     
 </body>
 </html>
+
