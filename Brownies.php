@@ -25,17 +25,17 @@
 
     <div class="container">
 	
-        <div class="left">
+        <div class="left h1">
             <div class="img-holder">
                 <img src="assets/RecipesList/Brownies.webp" alt="Sisig">
             </div>
 
         </div>
         
-        <div class="right">
+        <div class="right h1">
         <table>
             <tbody>
-                <div class="header">
+                <div class="header h1">
                     <h1>Brownies Recipe</h1>
                 </div>
                 <tr> 
@@ -101,7 +101,7 @@
         </table>
                 
         </div>  
-        <div class="buttom">
+        <div class="buttom imglog">
             <h2 class="steps-col">Steps</h2>
                 <ol>
                     <li>Preheat the oven to 350 degrees F (175 degrees C). Grease and flour an 8-inch square pan.</li>

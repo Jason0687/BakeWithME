@@ -11,12 +11,12 @@
 <body>
     <?php include 'header.php'; ?>
     
-        <div class="rcontainer">
+        <div class="rcontainer h1">
             <div class="rtitle">
                 <h1>Our Menu Recipes</h1>
             </div>
             <div class="sub-container">
-                <div class="submeunu">
+                <div class="submeunu h1">
                     <div class="submeunu-item">
                         <img src="assets/RecipesList/Blueberry_Cheesecake.jfif" alt="Blueberry Cheesecake">
                         <h2>Blueberry Cheesecake</h2>
@@ -45,7 +45,7 @@
                     <div class="submeunu-item">
                         <img src="assets/RecipesList/lolasempanada-2.jpg" alt="lolasempanada">
                         <h2>Curry Empanadas</h2>
-                        <button class="btn"><a href="">Recipe</a></button>
+                        <button class="btn"><a href="lolasempanada.php">Recipe</a></button>
                     </div>
                 </div>
             </div>

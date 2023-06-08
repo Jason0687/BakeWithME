@@ -21,8 +21,8 @@
 <?php include 'header.php';?>
 
     </section>
-    <div class="container-col">
-        <div class="header-col">
+    <div class="container-col imglog">
+        <div class="header-col imglog" >
             <h1>About Us</h1>
         </div>
         <div class="sub-container-col">

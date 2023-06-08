@@ -26,44 +26,57 @@
 <body>
     <div class="Hero-mainContent">
         <div class="contain">
-            <img class="Home_girl" src="assets/img/Home.png" alt="Cooking girl">
+            <div class="wrapper">
+                <img class="Home_girl fadeInLeft" src="assets/img/Home.png" alt="Cooking girl">
+            </div>
+            <div class="wrapper">
+                <h1>WELCOME!</h1>
+            </div>
+            <div class="wrapper">
+                <p>Join us with our home-cooked meals that are just a click away!</p>
+            </div>
 
-            <h1>WELCOME!</h1>
-
-
-        <p>Join us with our home-cooked meals that are just a click away!</p>
         </div>  
     </div>
     <div class="next-page">
             <div class="one">
-                <h1>Find your best recipes <br> easily!</h1>
-
-                <p>You can also watch tips and steps in this website!</p>
-                <button class="hero-btn" onclick="location.href='https://www.youtube.com/watch?v=dZR7CuLSy0I'"><i class="fa-sharp fa-solid fa-play"></i>&#32;WATCH</button>
+                <div class="h1 log">
+                    <h1>Find your best recipes <br> easily!</h1>
+                </div>
+                <div class="h1 log">
+                    <p>You can also watch tips and steps in this website!</p>
+                </div>
+                <div class="h1 log">
+                    <button class="hero-btn" onclick="location.href='https://www.youtube.com/watch?v=dZR7CuLSy0I'"><i class="fa-sharp fa-solid fa-play"></i>&#32;WATCH</button>
+                </div>
             </div>
-            <div>
+            <div class="imglog">
                 <img src="assets/img/Chef.png" class="Chef-img">
             </div>
     </div>
     <div class="food-container">
             <div class="food">
-                <h1>Simple Recipes Made For</h1>
-                <p>real, actual, everyday life</p>
+                <div class="imglog">
+                    <h1 >Simple Recipes Made For</h1>
+                </div>
+                <div class="imglog">
+                    <p>real, actual, everyday life</p>
+                </div>
             </div>
-            <div class="bread-content">
-                <div class="bread1-container">
+            <div class="bread-content imglog">
+                <div class="bread1container imglog">
                     <img src="assets/img/b1.png" class="bread1" alt="">      
 
                 </div>
-                <div class="bread1-container">
+                <div class="bread1container imglog">
                     <img src="assets/img/b2.png" class="bread1" alt="">     
 
                 </div>
-                <div class="bread1-container">
+                <div class="bread1container imglog">
                     <img src="assets/img/b3.png" class="bread1" alt="">     
 
                 </div>    
-                <div class="bread1-container">
+                <div class="bread1container imglog">
                     <img src="assets/img/b4.png" class="bread1" alt="">   
                 </div>                          
             </div>
@@ -72,5 +85,6 @@
     <?php include 'footer.php'; ?>
         <script src="https://kit.fontawesome.com/5245bddf71.js" crossorigin="anonymous"></script>
         <script src="assets/js/index.js"></script>
+        <script src="assets/js/scrolling.js"></script>
 </body>
 </html>

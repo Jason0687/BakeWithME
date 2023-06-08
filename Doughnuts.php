@@ -27,17 +27,17 @@
 
     <div class="container">
 	
-        <div class="left">
+        <div class="left h1">
             <div class="img-holder">      
                 <img src="assets/RecipesList/Doughnuts.jpg" alt="Doughnuts">
             </div>
 
         </div>
         
-        <div class="right">
+        <div class="right h1">
         <table>
             <tbody>
-                <div class="header">
+                <div class="header h1">
                     <h1>Doughnuts Recipe</h1>
                 </div>
                 <tr> 
@@ -116,7 +116,7 @@
         </table>
                 
         </div>
-        <div class="buttom">
+        <div class="buttom imglog">
             <h2 class="steps-col">Steps</h2>
                     <ol>
                         <li>Preheat the oven to 425°F. Lightly grease two standard doughnut pans.</li>

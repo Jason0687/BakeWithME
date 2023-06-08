@@ -1,4 +1,6 @@
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +8,6 @@
 
 body::-webkit-scrollbar{
     display: none;
-}
-
-.header-logo, .humba-logo, .burger-logo, .sisig-logo{
-   color: #fff;
-   font-weight: 700;
-   text-decoration: none;
-   font-size: 30px;
-   font-family: 'Tilt Prism', cursive;
-   flex-direction: row;
 }
 
 
@@ -50,14 +43,69 @@ body::-webkit-scrollbar{
     animation: slidein;
 }
 
-@keyframes slidein {
+.wrapper {
+    opacity: 0;
+    filter: blur(5px);
+    animation: fade-in 1s forwards;
+  }
+  
+  @keyframes fade-in {
     from {
-        transform: translateX(0);
+      opacity: 0;
     }
     to {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  
+  .h1 {
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fade-out 1s forwards;
+  }
+
+  .log:nth-child(2) {
+    animation-delay: 200ms;
+  }
+
+  .log:nth-child(3) {
+    animation-delay: 400ms;
+  }
+
+  .log:nth-child(4) {
+    animation-delay: 500ms;
+  }
+
+  @keyframes fade-out {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .imglog {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slide-in 1s forwards;
+    animation-delay: 400ms;
+  }
+
+  @keyframes slide-in {
+    from {
+        opacity: 0;
         transform: translateX(100%);
     }
-}
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+
 .contain p {
     font-size: 20px;
     margin: 20px;
@@ -148,10 +196,10 @@ ol {
 .header h1 {
     text-transform: uppercase;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 20px;
     margin-top: 20px;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Lilita One', cursive;
     color: F6F0C4;
     letter-spacing: 2px;
 }

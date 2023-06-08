@@ -10,10 +10,11 @@ body{
     background-image: linear-gradient(#da56b7, #F6F0C4);    
 }
 
-.container{
+.containers{
     background-image: linear-gradient(#da56b7, #F6F0C4);    
-    padding-top: 72px;
+    padding-top: 90px;
     padding-bottom: 150px;
+    height: calc(100vh - 60px);
 }
 
 .content{
@@ -159,6 +160,7 @@ body{
 .f-lg-footer{
     width: 980px;
     margin: 30px auto;
+    min-height: 40px;
 }
 
 .f-lg-footer > ul{
@@ -233,7 +235,7 @@ body{
 
 @media (max-width: 980px){
 
-    .container{
+    .containers{
         padding-top: 0px;
         padding-bottom: 20px;
         background: #fff;

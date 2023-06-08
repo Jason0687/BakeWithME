@@ -26,15 +26,9 @@
 <body>
 <?php include 'header.php';?>
 
-    <section class="contact">
+    <section class="contact imglog">
         <div class="contact-form">
-            <h1 ata-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="500"
-                data-aos-duration="500">Contact <span class="us" data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="500"
-                data-aos-duration="500">Us</span></h1>
+            <h1>Contact <span class="us">Us</span></h1>
             <p>We provide Good service and action. Connect with us via phone: 09054232322
                 or email: admin@example.com</p>
                 <form action="">

@@ -24,17 +24,17 @@
 <body>
     <div class="container">
 	
-        <div class="left">
-            <div class="img-holder">
+        <div class="left ">
+            <div class="img-holder h1">
                 <img src="assets/RecipesList/Blueberry_Cheesecake.jfif" alt="Blueberry Cheesecake">
             </div>
 
         </div>
         
-        <div class="right">
+        <div class="right h1">
         <table>
             <tbody>
-                <div class="header">
+                <div class="header h1">
                     <h1>Blueberry Cheesecake Recipe</h1>
                 </div>
                 <tr> 
@@ -70,7 +70,7 @@
     
         </table>
         </div> 
-        <div class="buttom">
+        <div class="buttom imglog">
             <h2>Steps</h2>
                 <ol>
                     <li>Combine graham crackers and butter. Mix well. Set aside.</li>

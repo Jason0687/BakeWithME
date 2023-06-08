@@ -25,7 +25,7 @@
     <?php include 'header.php';?>
         <div class="container">
         
-            <div class="left">
+            <div class="left h1">
                 
                 <div class="img-holder">
                     <img src="assets/RecipesList/Cinnabon.webp" alt="Cinnabon">
@@ -33,10 +33,10 @@
 
             </div>
             
-            <div class="right">
+            <div class="right h1">
             <table>
                 <tbody>
-                    <div class="header">
+                    <div class="header h1">
                         <h1>Cinnabon Recipe</h1>
                     </div>
                     <tr> 
@@ -112,7 +112,7 @@
             </table>
             
         </div>
-        <div class="buttom">
+        <div class="buttom imglog">
             <h2 class="steps-col">Steps</h2>
             <ol>
                 <li>Prepare dough: Place milk, eggs, margarine, flour, salt, white sugar, and yeast in the pan of a bread machine in the order recommended by the manufacturer. Select dough cycle; press Start.</li>

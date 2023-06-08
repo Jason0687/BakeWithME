@@ -25,7 +25,7 @@
         <span>Get Bake With ME for Android and browse faster</span>
     </div>
 
-    <div class="container">
+    <div class="containers">
         <!-- main container -->
         <div class="content">
             <!-- logo container -->

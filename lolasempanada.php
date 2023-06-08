@@ -27,7 +27,7 @@
 	
         <div class="left h1">
             <div class="img-holder">
-                <img src="assets/RecipesList/Chocolate_cookies.webp" alt="Chocolate cookies">
+                <img src="assets/RecipesList/Empanadas.jpeg" alt="lolasempanada">
             </div>
 
         </div>
@@ -44,44 +44,33 @@
                 </tr>
 
                 <tr>
-                    <td>Gold Medal™ all-purpose flour</td>
-                    <td>2 1/4 cups</td>
-                </tr>
-                <tr>
-                    <td>Baking soda</td>
-                    <td>1 tsp</td>
-                </tr>
-                <tr>
-                    <td>Salt</td>
-                    <td>1/2 tsp</td>
-                </tr>
-                <tr>
-                    <td>Butter, softened</td>
-                    <td>1 cup</td>
-                </tr>
-                <tr>
-                    <td>Granulated sugar</td>
-                    <td>3/4 cup</td>
-                </tr><tr>
-                    <td>Brown sugar</td>
-                    <td>3/4 cup packed</td>
-                </tr>
-                <tr>
-                    <td>Egg</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Vanilla</td>
-                    <td>1 tsp</td>
-                </tr>
-                <tr>
-                    <td>Semisweet chocolate chips</td>
+                    <td>all-purpose flour</td>
                     <td>2 cups</td>
                 </tr>
                 <tr>
-                    <td>Coarsely chopped nuts, if desired</td>
-                    <td>1 cup</td>
-                </tr>           
+                    <td>white sugar</td>
+                    <td>⅓ cup</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>½ teaspoon</td>
+                </tr>
+                <tr>
+                    <td>water</td>
+                    <td>½ cup</td>
+                </tr>
+                <tr>
+                    <td>large egg yolk</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>all-purpose flour for dusting</td>
+                    <td>2 tablespoons</td>
+                </tr>
+                <tr>
+                    <td>butter, melted</td>
+                    <td>2 tablespoons</td>
+                </tr>       
                 
             </tbody>
     
@@ -90,11 +79,10 @@
         <div class="buttom imglog">
             <h2 class="steps-col">Steps</h2>
                 <ol>
-                    <li>Heat oven to 375°F. In small bowl, mix flour, baking soda and salt; set aside.</li>
-                    <li>In large bowl, beat softened butter and sugars with electric mixer on medium speed, or mix with spoon about 1 minute or until fluffy, scraping side of bowl occasionally.</li>
-                    <li>Beat in egg and vanilla until smooth. Stir in flour mixture just until blended (dough will be stiff). Stir in chocolate chips and nuts.</li>
-                    <li>Onto ungreased cookie sheets, drop dough by rounded tablespoonfuls 2 inches apart.</li>
-                    <li>Bake 8 to 10 minutes or until light brown (centers will be soft). Cool 2 minutes; remove from cookie sheet to cooling rack. Cool completely, about 30 minutes. Store covered in airtight container.</li>
+                    <li>Whisk 2 cups flour, sugar, and salt together in a bowl until well blended. Make a well in the center.</li>
+                    <li>Whisk water and egg yolk together in a small bowl until smooth; pour into the well and mix to form a stiff dough.</li>
+                    <li>Transfer the dough to a lightly floured surface and knead until smooth and elastic, about 8 minutes. Roll dough with a rolling pin until thin, dusting with flour as needed to prevent sticking. Brush melted butter over top and roll dough into a log.</li>
+                    <li>Cut the log crosswise into about 24 slices. Roll each slice into a disk.</li>
                 </ol>
         </div> 
     </div>
